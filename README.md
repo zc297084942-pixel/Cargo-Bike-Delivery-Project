@@ -27,6 +27,8 @@ The report also identifies three cases where scenario-level insertion performs s
 
 ## Reproducible example: HighNE4
 
+Before running the script, extract od_network_distance_matrix.zip into the project folder. Ensure that od_network_distance_matrix.csv is alongside process_highne4_two_methods_commented.py.
+
 The included `HighNE4.xml` contains **4 scenarios and 120 deliveries**. Each XML person is treated as a separate scenario. Both methods produce 11 cycles in total for this example.
 
 | Method | Original distance (km) | Resulting distance (km) | Distance saved (km) | Reduction |
